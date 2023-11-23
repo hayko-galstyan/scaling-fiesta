@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+#calculiator {
+    width:410px;
+    height:auto;
+    margin:0 auto;
+}
+
+#inputValue {
+    width:100%;
+    padding:15px;
+    text-align: right;
+    font-size:25px;
+}
+
+#calculiator div {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-content:center;
+    width:100%;
+    background:#a1aab2;
+}
+
+#calculiator div>button {
+    width: 103px;
+    height: 100px;
+    background: #98df8c;
+    font-size:25px;
+    color:#ffffff;
+}
+
+button.eval{
+    width:100% !important;
+}
